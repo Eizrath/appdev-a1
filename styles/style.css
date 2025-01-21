@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lexend-400 {
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend", sans-serif;
+    background-color: #c4dbff;
+    color: #000000;
+}
+
+.content-wrapper {
+    margin: 4% 10rem;
+}
+.s1 h1 {
+    font-size: 2rem;
+}
+.s1 h3 {
+    font-size: 1rem;
+}
+.s1 .profile {
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 50%;
+    border: solid black 5px
+}
+.s1 {
+    padding: 2rem 0;
+    text-align: center;
+}
+.s2 {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
