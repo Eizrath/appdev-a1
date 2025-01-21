@@ -22,7 +22,7 @@ body {
 }
 
 .content-wrapper {
-    margin: 4% 10rem;
+    margin: 2% 10rem;
 }
 .s1 h1 {
     font-size: 2rem;
@@ -44,4 +44,10 @@ body {
     text-align: justify;
     font-size: 1rem;
     line-height: 1.6rem;
+    margin: 2rem 0;
+}
+
+.s2 ul {
+    display: flex;
+    justify-content: space-evenly;
 }
